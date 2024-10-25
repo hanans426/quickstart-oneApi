@@ -1,0 +1,35 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "instance_charge_type",
+          "period_unit",
+          "period"
+        ],
+        "Label": {
+          "default": "付费类型配置"
+        }
+      },
+      {
+        "Parameters": [
+          "instance_type",
+          "password"
+        ],
+        "Label": {
+          "default": "资源配置"
+        }
+      },
+      {
+        "Parameters": [
+          "zone_id",
+          "vpc_id",
+          "vswitch_id"
+        ],
+        "Label": {
+          "default": "可用区配置"
+        }
+      }
+    ]
+  }
+}
