@@ -1,6 +1,5 @@
 Service:
   RegionId: cn-hangzhou
-  DeployType: terraform
   DeployMetadata:
     SupplierDeployMetadata:
       FileArtifactRelation:
@@ -9,8 +8,7 @@ Service:
           ArtifactVersion: ${Artifact.Artifact_1.ArtifactVersion}
     TemplateConfigs:
       - Name: 单机版
-        Url: 'ros_templates/template.yaml'
-        TerraformUrl: 'terraform_templates'
+        Url: 'templates/template.yaml'
         AllowedRegions:
           - cn-qingdao
           - cn-beijing
